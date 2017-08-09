@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+</head>
+<body>
+	
+	<header>
+			<div class="wrap1">
+				<div class="top-head">
+					<i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+					<div class="adres">Украина, 49038, г. Днепропетровск, ул. Рогалева, 12б</div>
+					<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+					<div class="email">sssss@vega.com.ua</div>
+					<i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+					<div class="phone">(056) 888-777-1; (067) 777-65-31</div>
+				
+					<div class="language">
+						<div class="ua">UA</div>
+						<div class="eng">ENG</div>
+						<div class="ru active">RU</div>
+					</div>
+				</div>
+			</div>
+				
+			</div>
+			<div class="wrap2">
+				<div class="logotype">
+				LOGOTYPE
+				</div>
+			</div>
+			<div class="wrap3">
+				<div class="main">
+			
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Реализованные проекты</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#" style="border-right: 1px solid #E5E5E5;">Контакты</a></li>
+					</ul>
+
+				</div>
+			</div>
+	</header>
+
+<div class="slider">
+	
+	<ul class="my-slider">
+		<li><img src="img/slider1.jpg" alt="слайд1"></li>
+		<li><img src="img/slider2.jpg" alt="слайд2"></li>
+		<li><img src="img/slider3.jpg" alt="слайд3"></li>
+		<li><img src="img/slider1.jpg" alt="слайд1"></li>
+		<li><img src="img/slider2.jpg" alt="слайд2"></li>
+	</ul>
+
+</div>
+
+<div class="product">
+	<h2>Наша продукция</h2>
+	<ul class="my-slider2">
+			<li><a href="#"><img src="img/product1.jpg" alt="" class="test"></a></li>
+			<li><a href="#"><img src="img/product2.jpg" alt="" class="test"></a></li>
+			<li><a href="#"><img src="img/product1.jpg" alt="" class="test"></a></li>
+			<li><a href="#"><img src="img/product2.jpg" alt="" class="test"></a></li>
+			<li><a href="#"><img src="img/product1.jpg" alt="" class="test"></a></li>
+			<li><a href="#"><img src="img/product2.jpg" alt="" class="test"></a></li>
+	</ul>
+</div>
+
+<div class="partners">
+	<h2>Наши партнеры</h2>
+	<div class="partne">
+		<a href="#"><img src="img/partn1.jpg" alt="" class="partn"></a>
+		<a href="#"><img src="img/partn2.jpg" alt="" class="partn"></a>
+		<a href="#"><img src="img/partn3.jpg" alt="" class="partn"></a>
+		<a href="#"><img src="img/partn4.jpg" alt="" class="partn"></a>
+		<a href="#"><img src="img/partn5.jpg" alt="" class="partn"></a>
+		<a href="#"><img src="img/partn6.jpg" alt="" class="partn"></a>
+	</div>
+</div>
+
+<footer>
+	<!-- <img src="img/footer1.jpg" alt="" width="100%";"> -->
+
+
+<div class="email2"><i class="fa fa-envelope soc" aria-hidden="true"></i>  email@mail.com</div>
+<div class="phone2"><i class="fa fa-phone-square soc" aria-hidden="true"></i> (095) 154 44 11</div>
+<div class="social">
+	<a href="#"><i class="fa fa-vk soc" aria-hidden="true"></i></a>
+	<a href="#"><i class="fa fa-facebook-official soc" aria-hidden="true"></i></a>
+</div>
+<div class="phone2"><i class="fa fa-phone-square soc" aria-hidden="true"></i><a href="#" style="color: white; text-decoration: underline;"> Обратный звонок</a></div>
+<img src="img/footer-logo.jpg" alt="" style="margin-left: 70px;">
+
+
+</footer>
+
+
+
+
+
+
+<script>
+	
+	$(document).ready(function(){
+  $('.my-slider').bxSlider({
+  	mode: 'fade',
+  	captions: true,
+  	auto: true
+
+  }); 
+
+});
+
+$(document).ready(function(){
+  $('.my-slider2').bxSlider({
+  	pager: false,
+    slideWidth: 190,
+    minSlides: 2,
+    maxSlides: 6,
+    moveSlides: 1,
+    slideMargin: 5
+
+  });
+});
+
+</script>
+</body>
+
+</html>
